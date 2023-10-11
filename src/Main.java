@@ -51,6 +51,5 @@ public class Main {
                     System.out.println("Поздравляем с годовщиной свадьбы");
             }
         }
-
     }
 }
