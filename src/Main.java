@@ -51,5 +51,13 @@ public class Main {
                     System.out.println("Поздравляем с годовщиной свадьбы");
             }
         }
+
+        System.out.println("-----");
+
+        Car vin1 = new Car("Mersedes E200", 777);
+        System.out.println("Модель - " + vin1.getModel() + ", номер - " + vin1.getNumber());
+
+        vin1.setNumber(555);
+        System.out.println("Модель - " + vin1.getModel() + ", номер - " + vin1.getNumber());
     }
 }
