@@ -32,7 +32,7 @@ public class Main {
         System.out.println("-----");
 
         {
-            int weddingAnniversary = 1;
+            int weddingAnniversary = 5;
             int award = weddingAnniversary * 100000;
             switch (weddingAnniversary) {
                 case 5:
@@ -52,5 +52,12 @@ public class Main {
             }
         }
 
+        System.out.println("-----");
+
+        Car vin1 = new Car("Mersedes E200", 777);
+        System.out.println("Модель - " + vin1.getModel() + ", номер - " + vin1.getNumber());
+
+        vin1.setNumber(555);
+        System.out.println("Модель - " + vin1.getModel() + ", номер - " + vin1.getNumber());
     }
 }
