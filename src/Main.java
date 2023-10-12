@@ -32,7 +32,7 @@ public class Main {
         System.out.println("-----");
 
         {
-            int weddingAnniversary = 1;
+            int weddingAnniversary = 5;
             int award = weddingAnniversary * 100000;
             switch (weddingAnniversary) {
                 case 5:
